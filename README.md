@@ -20,4 +20,4 @@ Includes multiple pages, a modern UI/UX, and working login/signup validations us
 
 ## 🔗 Live Demo
 
-[Click here to visit the site](https://AslamkhanPathan142.github.io/Travel-Website-Responsive/)  
+[Click here to visit the site](https://AslamKhanPathan142.github.io/Travel-Website-Responsive/)  
