@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
+    <!-- css file -->
+    <link rel="stylesheet" href="index.css">
+    <!-- bootstrap liblary -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<!-- ous-libraly -->
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+<style>
+    input[type=number]::-webkit-inner-spin-button,
+    input[type=number]::-webkit-outer-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+    }
+</style>
+<script src="index.js"></script>
+
+
+
+<body>
+    <!-- NAVBAR -->
+    <h1 class="hhh"></h1>
+
+    <nav class="navbar navbar-expand-lg bg-body-light">
+        <div class="container">
+            <img src="./img/lo.jpg" alt="" class="img-1">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                <ul class="navbar-nav ms-auto me-auto mb-2 mb-lg-0">
+                    <li class="nav-item nav-1">
+                        <a class="nav-link active fs-5" aria-current="page"
+                            href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fs-5" href="about.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fs-5" href="contect.html">Contect
+                            Us</a>
+                    </li>
+                   
+                </ul>
+
+                <button class="btn btn-outline-primary btn-lg login-btn" type="submit" data-bs-toggle="modal"
+                    data-bs-target="#staticBackdrop">Sign In</button>
+
+                <!-- popup sign in -->
+
+
+                <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false"
+                    tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+
+                        <div class="modal-content width">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="staticBackdropLabel">LOGIN</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-lg-6">
+                                            <div class="mb-3">
+                                                <form action="/myaction1.php" id="myform1"
+                                                    onsubmit="return validateForm2()" method="post">
+                                                    <label for="exampleFormControlInput1" class="form-label ">Email
+                                                        Address</label>
+                                                    <input type="email" class="form-control email2"
+                                                        id="exampleFormControlInput1" placeholder="Enter Your Email-Id">
+                                            </div>
+
+                                            <div id="passwordHelpBlock" class="form-text error8"></div>
+
+
+                                            <label for="inputPassword5" class="form-label">Password</label>
+                                            <div class="d-flex">
+                                                <input type="password" id="inputPassword5"
+                                                    class="form-control passward2" aria-describedby="passwordHelpBlock"
+                                                    placeholder="Enter Your Password">
+                                                <i class="fa-solid fa-eye" id="logo2"></i>
+                                                <i class="fa-solid fa-eye-slash" id="logo3"></i>
+                                            </div>
+
+                                            <div id="passwordHelpBlock" class="form-text error9"></div>
+                                            <div class="forget"><a href="#" class="forget1">Forgot Passward?</a>
+                                            </div>
+                                            <button type="submit" class="btn btn-success mb-3 center">Login</button>
+                                            </form>
+                                        </div>
+
+
+
+
+                                        <div class="col-lg-6">
+                                            <img src="./img/b.jpg" alt="" class="img-fluid" style="mix-blend-mode: multiply;">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+
+    <!-- header containt -->
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <h1 class="head-1 mt-5 text-center" data-aos="fade-up">Travel around<br>
+                    the world</h1>
+                <p class="para-1 mt-5 text-center" data-aos="fade-up">Plan and book your perfect trip with expert
+                    advice,<br>
+                    travel tips, destination information and
+                    inspiration from us.</p>
+                    <div class="text-center">
+                        <button type="button" class="btn btn-primary btn-lg mt-5 bttn-1" data-aos="fade-up"
+                            data-bs-toggle="modal" data-bs-target="#exampleModal">Sign Up Now</button>
+                    </div>
+
+                <!-- popup sign up -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog modal-xl">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="exampleModalLabel">Sign Up</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <div class="container-fluid">
+                                    <div class="row">
+                                        <div class="col-lg-6">
+
+                                            <h3 class="mt-2">Register with us</h3>
+
+                                            <form action="/myaction1.php" id="myform" onsubmit="return validateForm()"
+                                                method="post">
+
+
+                                                <div class="input-group mb-3">
+                                                    <input type="text" class="form-control fname"
+                                                        placeholder="First Name" aria-label="Recipient's username"
+                                                        aria-describedby="basic-addon2">
+                                                </div>
+                                                <div id="error" class="form-text"></div>
+
+                                                <div class="input-group mb-3">
+                                                    <input type="text" class="form-control lname"
+                                                        placeholder="Last Name" aria-label="Recipient's username"
+                                                        aria-describedby="basic-addon2">
+                                                </div>
+                                                <div id="error2" class="form-text"></div>
+
+                                                <div class="input-group mb-3">
+                                                    <input type="text" class="form-control Address"
+                                                        placeholder="Enter Your Address"
+                                                        aria-label="Recipient's username"
+                                                        aria-describedby="basic-addon2">
+                                                </div>
+                                                <div id="error3" class="form-text"></div>
+
+                                                <div class="input-group mb-3">
+                                                    <input type="text" class="form-control"
+                                                        placeholder="Apartment, Suite, Building (Optional)"
+                                                        aria-label="Recipient's username"
+                                                        aria-describedby="basic-addon2">
+                                                </div>
+
+
+                                                <div class="input-group mb-3">
+                                                    <select class="form-select" aria-label="Default select example"
+                                                        required>
+                                                        <option selected disabled>Select City</option>
+                                                        <option value="3">Mehsana</option>
+                                                        <option value="1">Patan</option>
+                                                        <option value="2">Ahmedabad</option>
+                                                    </select>
+                                                </div>
+
+                                                <div class="input-group mb-3">
+                                                    <input type="number" class="form-control mobile"
+                                                        placeholder="Enter Your Mobile Number"
+                                                        aria-label="Recipient's username"
+                                                        aria-describedby="basic-addon2">
+                                                </div>
+                                                <div id="error4" class="form-text"></div>
+
+                                                <div class="input-group mb-3">
+                                                    <input type="email" class="form-control email"
+                                                        placeholder="Enter Your Email" aria-label="Recipient's username"
+                                                        aria-describedby="basic-addon2">
+                                                </div>
+                                                <div id="error5" class="form-text"></div>
+
+                                                <div class="input-group mb-3 d-flex">
+                                                    <input type="password" class="form-control passward"
+                                                        placeholder="Password" aria-label="Recipient's username"
+                                                        aria-describedby="basic-addon2">
+
+                                                    <input type="password" class="form-control cpassward"
+                                                        placeholder="Conform Password" aria-label="Recipient's username"
+                                                        aria-describedby="basic-addon2">
+                                                </div>
+                                                <div id="error6" class="form-text"></div>
+
+                                                <div class="input-group mb-3 d-flex justify-content-center">
+                                                    <button type="submit" class="btn btn-success">Register</button>
+                                                </div>
+                                            </form>
+
+                                        </div>
+
+
+                                        <div class="col-lg-6">
+                                            <img src="./img/im.png" alt="" class="img-fluid">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+            </div>
+            <div class="col-lg-6">
+                <img src="./img/img-1.jpeg" alt="" class="img-fluid">
+            </div>
+        </div>
+    </div>
+
+    <!-- slide img -->
+    <div class="container con-1" data-aos="fade-up">
+        <div class="row">
+            <div class="col-lg-8">
+                <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" data-bs-interval="2000">
+                            <div class="d-flex justify-content-around">
+                                <div class="card" style="width: 16rem;">
+                                    <img src="./img/Goa-2.jpg" class="card-img-top" alt="...">
+                                </div>
+
+                                <div class="card" style="width: 16rem;">
+                                    <img src="./img/Gujrat-2.jpg" class="card-img-top" alt="...">
+                                </div>
+
+                                <div class="card" style="width: 16rem;">
+                                    <img src="./img/Maharashtra-2.jpg" class="card-img-top" alt="...">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item" data-bs-interval="2000">
+                            <div class="d-flex justify-content-around">
+                                <div class="card" style="width: 16rem;">
+                                    <img src="./img/Tamil Nadu-2.webp" class="card-img-top" alt="...">
+                                </div>
+
+                                <div class="card" style="width: 16rem;">
+                                    <img src="./img/Himachal Pradesh-2.jpeg" class="card-img-top" alt="...">
+                                </div>
+
+                                <div class="card" style="width: 16rem;">
+                                    <img src="./img/Uttarakhand -2.jpg" class="card-img-top" alt="...">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+
+            </div>
+
+            <!-- content -->
+            <div class="col-lg-4">
+                <h1 class="head-2">Amazing places to<br>
+                    enjoy your travel</h1>
+                <b>
+                    <hr>
+                </b>
+                <p class="para-2"> Famous for its stunning sunsets, whitewashed buildings, and crystal-clear waters, Santorini offers a picturesque backdrop for a memorable vacation.Known for its ancient temples, traditional tea houses, and beautiful cherry blossoms,</p>
+                <button type="button" class="btn btn-primary">Primary</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- video content -->
+    <h1 class="head-3 text-center" data-aos="fade-up">Featured videos</h1>
+    <div class="text-center" data-aos="fade-up">
+        <i class="fa-solid fa-minus dash"></i>
+    </div>
+    <p class="para-3 text-center mb-5" data-aos="fade-up">Create comprehensive guides to different destinations, highlighting the must-see attractions, best places to eat, where to stay, and insider tips. Document your journey in a vlog format, sharing your experiences, adventures, and impressions as you explore new places.</p>
+
+    <div class="container" data-aos="fade-up">
+        <div class="row con-2">
+            <video loop autoplay playsiline muted>
+                <source src="./img/video-2.mp4" type="video/mp4">
+                <source src="./img/video-2.ogg" type="video/ogg">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </div>
+
+    <!-- Travel -->
+
+    <h1 class="text-center head-3" data-aos="fade-up">Travel categories</h1>
+    <div class="text-center" data-aos="fade-up">
+        <i class="fa-solid fa-minus dash"></i>
+    </div>
+    <p class="para-3 text-center mb-5" data-aos="fade-up">Are you ready to embark on your next adventure but unsure where to start? With countless destinations and experiences waiting to be discovered, narrowing down your options can be overwhelming. That's where understanding different travel categories can be immensely helpful. </p>
+
+
+    <div class="container con-3" data-aos="fade-up">
+        <div class="row">
+
+            <div id="carouselExampleInterval1" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="2000">
+                        <div class="d-flex justify-content-around">
+                            <div class="card-1 card-10" style="width: 14rem;">
+                                <img src="./img/1.jpeg" class="card-img-top" alt="...">
+                            </div>
+
+                            <div class="card-1 card-10" style="width: 14rem;">
+                                <img src="./img/2.jpeg" class="card-img-top" alt="...">
+                            </div>
+
+                            <div class="card-1 card-10" style="width: 14rem;">
+                                <img src="./img/3.jpeg" class="card-img-top" alt="...">
+                            </div>
+
+                            <div class="card-1 card-10" style="width: 14rem;">
+                                <img src="./img/4.jpeg" class="card-img-top" alt="...">
+                            </div>
+
+                            <div class="card-1 card-10" style="width: 14rem;">
+                                <img src="./img/5.jpeg" class="card-img-top" alt="...">
+                            </div>
+
+
+
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <div>
+                            <div class="d-flex justify-content-around">
+                                <div class="card-1 card-10" style="width: 14rem;">
+                                    <img src="./img/6.jpeg" class="card-img-top" alt="...">
+                                </div>
+
+                                <div class="card-1 card-10" style="width: 14rem;">
+                                    <img src="./img/7.jpeg" class="card-img-top" alt="...">
+                                </div>
+
+                                <div class="card-1 card-10" style="width: 14rem;">
+                                    <img src="./img/8.jpeg" class="card-img-top" alt="...">
+                                </div>
+
+                                <div class="card-1 card-10" style="width: 14rem;">
+                                    <img src="./img/9.jpeg" class="card-img-top" alt="...">
+                                </div>
+
+                                <div class="card-1 card-10" style="width: 14rem;">
+                                    <img src="./img/10.jpeg" class="card-img-top" alt="...">
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval1"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval1"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Traveller's Experiences -->
+
+    <h1 class="head-4 text-center" data-aos="fade-up">Traveller's Experiences</h1>
+    <div class="text-center" data-aos="fade-up">
+        <i class="fa-solid fa-minus dash"></i>
+    </div>
+
+
+
+    <div class="container con-3" data-aos="fade-up">
+        <div class="row">
+
+            <div id="carouselExampleInterval2" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="2000">
+                        <div class="divv">
+                            <p class="para-3 text-center mb-5"> Emily shares her transformative journey through Japan, where she immersed herself in the country's rich culture, from participating in traditional tea ceremonies to learning the art of sushi-making from a local chef.</p>
+                            <div class="card-2 d-flex justify-content-center">
+                                <img src="./img/girl-2-1_1.jpg" class="card-img-top rounded-circle" alt="...">
+                            </div>
+
+
+
+
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <div>
+                            <p class="para-3 text-center mb-5"> Emily shares her transformative journey through Japan, where she immersed herself in the country's rich culture, from participating in traditional tea ceremonies to learning the art of sushi-making from a local chef.</p>
+                            <div class="card-2  d-flex justify-content-center">
+                                <img src="./img/man-2-1.jpg" class="card-img-top rounded-circle" alt="...">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <div>
+                            <p class="para-3 text-center mb-5">Alex reflects on his life-changing volunteer experience in Cambodia, where he worked with local communities to build sustainable infrastructure and empower underprivileged children through education and mentorship.</p>
+                            <div class="card-2  d-flex justify-content-center">
+                                <img src="./img/girl-2-2.jpg" class="card-img-top rounded-circle" alt="...">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <div>
+                            <p class="para-3 text-center mb-5"> Michael and Lisa recount their unforgettable sailing journey through the Greek Islands, where they explored hidden coves, swam in crystal-clear waters, and savored authentic Greek cuisine under the Mediterranean sun.</p>
+                            <div class="card-2  d-flex justify-content-center">
+                                <img src="./img/man-2-2_1.jpg" class="card-img-top rounded-circle" alt="...">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval2"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval2"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- booking -->
+
+    <div class="container-fluid main-div" data-aos="fade-up">
+        <div class="row main-bg">
+
+            <h2 class="text-center mt-5">WE WILL SEE YOU</h2>
+            <h1 class="text-center mb-5">Enjoy 30% Off On First Trip</h1>
+
+
+            <div class="col-lg-2"></div>
+            <div class="col-lg-2 mb-2">
+                <select class="form-select select-1" aria-label="Default select example">
+                    <option selected>Open this select menu</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                </select>
+            </div>
+            <div class="col-lg-2 mb-2">
+                <select class="form-select select-1" aria-label="Default select example">
+                    <option selected>Open this select menu</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                </select>
+            </div>
+            <div class="col-lg-2 mb-2">
+                <input type="date" class="form-control select-1" id="exampleFormControlInput1"
+                    placeholder="name@example.com">
+            </div>
+            <div class="col-lg-2 mb-2 d-flex justify-content-center">
+                <button type="submit" class="btn btn-primary">Primary</button>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- footer -->
+
+    <footer data-aos="fade-up">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-3 about">
+                    <ul>
+                        <h6 class="he">OUR COMPANY</h6>
+                        <li>ABOUT</li>
+                        <li>CONTACT</li>
+                        <li>FAQS</li>
+                        <li>BLOG</li>
+                        <li>PRIVACY</li>
+                        <li>TERMS & CONDITION</li>
+                        <li>SELLER</li>
+                        <li>REVIEWS</li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-3 about">
+                    <ul>
+                        <h6 class="he">FIND US ON</h6>
+                        <li>FACEBOOK</li>
+                        <li>TWITTER</li>
+                        <li>LINKEDIN</li>
+                        <li>YOUTUBE</li>
+                        <li>INSTAGRAM</li>
+                        <li>PINTEREST</li>
+
+                    </ul>
+                </div>
+
+                <div class="col-lg-3 about">
+                    <ul>
+                        <h6 class="he">GET IN TOUCH WITH US</h6>
+                        <li>PHONE SUPPORT</li>
+                        <li>GENERAL ENQUIRY</li>
+                        <li>ORDER SUPPORT</li>
+                        <li>STORES SUPPORT</li>
+
+
+                    </ul>
+                </div>
+
+                <div class="col-lg-3 d-flex">
+                    <div class="div-img">
+                        <img src="./img/apple-logo-transparent.png" alt="" class="img-5">
+                        <h6>Download<br>iOS APP</h6>
+                    </div>
+
+                    <div class="div-img">
+                        <img src="./img/61120.png" alt="" class="img-5">
+                        <h6>Download<br>Android APP</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+   
+    <script src="index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- jQuery -->
+    <script src="jquery-3.7.1.min.js"></script>
+
+    <script>
+        AOS.init({
+            duration: 1000
+        });
+
+    </script>
+
+
+</body>
+</html>

@@ -1,0 +1,133 @@
+.img-con{
+    background-image: url("./img/mountain-2.jpg");
+    height: 550px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 100px;
+
+}
+.img-1{
+    height: 50px;
+    width: 50px;
+}
+.heading-1{
+    color: rgb(255, 255, 255);
+    line-height: 90px;
+    font-size: 75px;
+    font-weight: 500;
+    font-family: "DM Serif Display", serif;
+}
+.con-para{
+    color: rgb(255, 255, 255);
+    font-family: "DM Sans", sans-serif;
+    font-size: 25px;
+    line-height: 43px;
+    font-weight: 400;
+}
+.phone-icon{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 40px;
+    color: rgb(69, 69, 69);
+}
+.phone{
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+    color: rgb(56, 56, 56);
+    line-height: 29px;
+    font-family: "DM Serif Display", serif;
+}
+.disc{
+    text-align: center;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    color: rgb(140, 140, 140);
+}
+.number{
+    text-align: center;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    color: rgb(169, 197, 242);
+    margin-bottom: 100px;
+    
+}
+.number a{
+    text-decoration: none;
+}
+
+.back-con{
+    height: 600px;
+    background-color: rgb(94, 208, 220);
+}
+
+.heading-2{
+    color: rgb(58, 58, 58);
+    line-height: 52px;
+    font-size: 43px;
+    font-weight: 500;
+    font-family: "DM Serif Display", serif;
+}
+.con-para-1{
+    color: rgb(114, 114, 114);
+    font-family: "DM Sans", sans-serif;
+    font-size: 19px;
+    line-height: 32px;
+    font-weight: 400;
+}
+
+iframe {
+    width: 99vw;
+}
+
+.icon-fb{
+    height: 100px;
+    background-color: rgb(101, 101, 101);
+}
+.icon-in i{
+    margin-left: 50px;
+    margin-top: 40px;
+    font-size: 25px;
+    color: white;
+}
+
+/* footer */
+
+
+.about ul li{
+    list-style: none;
+    line-height: 1.5rem;
+    margin: 0px 0px 0px 80px;
+    /* color: #ffffff; */
+    color: black;
+    font-size: 12px;
+}
+
+.he{
+    margin: 60px 0px 20px 80px;
+    /* color: #ffffff; */
+    color: black;
+}
+
+.div-img{
+    margin: 60px 0px 0px 60px;
+    /* color: #ffffff; */
+    color: black;
+}
+
+.img-5{
+    height: 50px;
+    width: 50px;
+}
+
+footer{
+    height: 400px;
+    /* background-color: #333333; */
+    color: black;
+}

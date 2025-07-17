@@ -1,0 +1,129 @@
+.img-1{
+    height: 50px;
+    width: 50px;
+}
+.img-con{
+    background-image: url("./img/about-bg-1.webp");
+    height: 550px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 100px;
+
+}
+
+
+.heading-1{
+    color: rgb(255, 255, 255);
+    line-height: 90px;
+    font-size: 75px;
+    font-weight: 500;
+    font-family: "DM Serif Display", serif;
+}
+.con-para{
+    color: rgb(255, 255, 255);
+    font-family: "DM Sans", sans-serif;
+    font-size: 25px;
+    line-height: 43px;
+    font-weight: 400;
+}
+
+.heading-2{
+    color: rgb(74, 202, 231);
+    line-height: 52px;
+    font-size: 43px;
+    font-weight: 500;
+    font-family: "DM Serif Display", serif;
+}
+.con-para-1{
+    color: rgb(114, 114, 114);
+    font-family: "DM Sans", sans-serif;
+    font-size: 19px;
+    line-height: 32px;
+    font-weight: 400;
+}
+
+.phone-icon{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 40px;
+    color: rgb(69, 69, 69);
+}
+.phone{
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+    color: rgb(56, 56, 56);
+    line-height: 29px;
+    font-family: "DM Serif Display", serif;
+}
+.disc{
+    text-align: center;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    color: rgb(140, 140, 140);
+}
+
+
+/* room */
+.main-div{
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.tiffin_2{
+    height: 480px;
+    width: 750px;
+   
+}
+.dhaba{
+    font-family: Lora, serif;
+    font-size: 37px;
+    line-height: 52px;
+    color: rgb(56, 56, 56);
+}
+.bhaba{
+    font-family: Jost, sans-serif;
+    font-size: 20px;
+    line-height: 34px;
+    color: rgb(110, 111, 114);
+}
+.in{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+/* footer */
+
+.about ul li{
+    list-style: none;
+    line-height: 1.5rem;
+    margin: 0px 0px 0px 80px;
+    /* color: #ffffff; */
+    color: black;
+    font-size: 12px;
+}
+
+.he{
+    margin: 60px 0px 20px 80px;
+    /* color: #ffffff; */
+    color: black;
+}
+
+.div-img{
+    margin: 60px 0px 0px 60px;
+    /* color: #ffffff; */
+    color: black;
+}
+
+.img-5{
+    height: 50px;
+    width: 50px;
+}
+
+footer{
+    height: 400px;
+    /* background-color: #333333; */
+    color: black;
+}
